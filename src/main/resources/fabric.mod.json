@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "practicebot",
+  "version": "${version}",
+  "name": "Practice Bot",
+  "description": "Herobot-style practice dummy templates with /pbot commands and a spawn GUI.",
+  "authors": ["PracticeBot"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.practicebot.PracticeBotMod"],
+    "client": ["com.practicebot.client.PracticeBotClient"]
+  },
+  "mixins": [
+    "practicebot.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

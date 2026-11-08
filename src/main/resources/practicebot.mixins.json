@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "com.practicebot.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EntityMixin",
+    "LivingEntityAccessor",
+    "LivingEntityMixin",
+    "MannequinEntityAccessor",
+    "MannequinEntityMixin",
+    "PlayerLikeEntityAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
